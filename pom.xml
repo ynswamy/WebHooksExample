@@ -49,4 +49,10 @@
 		<jee.version>7.0</jee.version>
 		<spring.version>4.3.13.RELEASE</spring.version>
 	</properties>
+	<distributionManagement>
+  <repository>
+    <id>123</id>
+    <url>http://localhost:8081/nexus/content/repositories/123</url>
+  </repository>
+</distributionManagement>
 </project>
